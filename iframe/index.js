@@ -1,0 +1,10 @@
+alert('만든이:시몬즈');
+alert('사용자 이름블록이 제대로 작동안할수도 있어요 실시간 리스트가 제대로 작동하지 않을수도 있어요');
+alert('f11을 누르면 화면비율 최고에요!(fn키가 있다면 fn+f11)');
+console.log('만든이:시몬즈');
+console.log('2차 제작 가능합니다');
+console.log('무료입니다');
+console.log('사용자 이름블록이 제대로 작동안할수도 있어요 실시간 리스트가 제대로 작동하지 않을수도 있어요');
+console.log('f11을 누르면 화면비율 최고에요!(fn키가 있다면 fn+f11)');
+let a = prompt('작품아이디를 알려주세요');
+open('https://playentry.org/api/project/iframe/'+a);
